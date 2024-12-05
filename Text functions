@@ -1,0 +1,12 @@
+EXACT(<text_1>, <text_2>) Checks if two strings are identical (EXACT() is case sensitive).
+FIND(<text_tofind>, <in_text>) Returns the starting position a text within another text (FIND() is case sensitive).
+FORMAT(<value>, <format>) Converts a value to a text in the specified number format.
+LEFT(<text>, <num_chars>) Returns the number of characters from the start of a string.
+RIGHT(<text>, <num_chars>) Returns the number of characters from the end of a string.
+LEN(<text>) Returns the number of characters in a string of text.
+LOWER(<text>) Converts all letters in a string to lowercase.
+UPPER(<text>) Converts all letters in a string to uppercase.
+TRIM(<text>) Remove all spaces from a text string.
+CONCATENATE(<text_1>, <text_2>) Joins two strings together into one string.
+SUBSTITUTE(<text>, <old_text>, <new_text>, <instance_num>) Replaces existing text with new text in a string.
+REPLACE(<old_text>, <start_posotion>, <num_chars>, <new_text>) Replaces part of a string with a new string.
