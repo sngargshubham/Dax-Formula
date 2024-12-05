@@ -1,0 +1,9 @@
+SUMMARIZE(<table>, <groupBy_columnName>[, <groupBy_columnName>]…[, <name>, <expression>]…) Returns a summary table for the requested totals over a set of groups.
+DISTINCT(<table>) Returns a table by removing duplicate rows from another table or expression.
+ADDCOLUMNS(<table>, <name>, <expression>[, <name>, <expression>]…) Adds calculated columns to the given table or table expression.
+SELECTCOLUMNS(<table>, <name>, <expression>[, <name>, <expression>]…) Selects calculated columns from the given table or table expression.
+GROUPBY(<table> [, <groupBy_columnName>[, [<column_name>] [<expression>]]…) Create a summary of the input table grouped by specific columns.
+INTERSECT(<left_table>, <right_table>) Returns the rows of the left-side table that appear in the right-side table.
+NATURALINNERJOIN(<left_table>, <right_table>) Joins two tables using an inner join.
+NATURALLEFTOUTERJOIN(<left_table>, <right_table>) Joins two tables using a left outer join.
+UNION(<table>, <table>[, <table> [,…]]) Returns the union of tables with matching columns.
