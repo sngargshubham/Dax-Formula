@@ -1,0 +1,10 @@
+IF(<logical_test>, <value_if_true>[, <value_if_false>]) Checks a condition, and returns a certain value depending on whether it is true or false.
+AND(<logical 1>, <logical 2>) Checks whether both arguments are TRUE, and returns TRUE if both arguments are TRUE. Otherwise, it returns FALSE.
+OR(<logical 1>, <logical 2>) Checks whether one of the arguments is TRUE to return TRUE. The function returns FALSE if both arguments are FALSE.
+NOT(<logical>) Changes TRUE to FALSE and vice versa.
+SWITCH(<expression>, <value>, <result>[, <value>, <result>]…[, <else>]) Evaluates an expression against a list of values and returns one of possible results.
+IFERROR(<value>, <value_if_error>) Returns value_if_error if the first expression is an error and the value of the expression itself otherwise.
+
+Relationship functions-:
+CROSSFILTER(<left_column>, <right_column>, <crossfiltertype>) Specifies the cross-filtering direction to be used in a calculation.
+RELATED(<column>) Returns a related value from another table.
